@@ -38,5 +38,107 @@ export const tools = [
   // Team Collaboration
   { id: 'slack', name: 'Slack', categoryId: 'team', description: 'Slack is where the future works.', logoUrl: 'https://ui-avatars.com/api/?name=Slack&background=4A154B&color=fff&rounded=true', websiteUrl: 'https://slack.com/' },
   { id: 'teams', name: 'Microsoft Teams', categoryId: 'team', description: 'Meet, chat, call, and collaborate in just one place.', logoUrl: 'https://ui-avatars.com/api/?name=Teams&background=6264A7&color=fff&rounded=true', websiteUrl: 'https://www.microsoft.com/en-us/microsoft-teams/group-chat-software' },
-  { id: 'discord', name: 'Discord', categoryId: 'team', description: 'Your place to talk and hang out.', logoUrl: 'https://ui-avatars.com/api/?name=Discord&background=5865F2&color=fff&rounded=true', websiteUrl: 'https://discord.com/' }
+  { id: 'discord', name: 'Discord', categoryId: 'team', description: 'Your place to talk and hang out.', logoUrl: 'https://ui-avatars.com/api/?name=Discord&background=5865F2&color=fff&rounded=true', websiteUrl: 'https://discord.com/' },
+
+  // Email Management
+  { id: 'gmail', name: 'Gmail', categoryId: 'email', description: 'Secure, smart, and easy to use email.', logoUrl: 'https://ui-avatars.com/api/?name=Gmail&background=EA4335&color=fff&rounded=true', websiteUrl: 'https://mail.google.com/' },
+  
+  // Instant Messaging
+  { id: 'whatsapp', name: 'WhatsApp', categoryId: 'messaging', description: 'Simple. Secure. Reliable messaging.', logoUrl: 'https://ui-avatars.com/api/?name=WhatsApp&background=25D366&color=fff&rounded=true', websiteUrl: 'https://www.whatsapp.com/' },
+  
+  // Word Processing
+  { id: 'gdocs', name: 'Google Docs', categoryId: 'word', description: 'Create and collaborate on online documents.', logoUrl: 'https://ui-avatars.com/api/?name=Docs&background=4285F4&color=fff&rounded=true', websiteUrl: 'https://docs.google.com/' },
+  
+  // Spreadsheets
+  { id: 'gsheets', name: 'Google Sheets', categoryId: 'spreadsheets', description: 'Create and collaborate on online spreadsheets.', logoUrl: 'https://ui-avatars.com/api/?name=Sheets&background=0F9D58&color=fff&rounded=true', websiteUrl: 'https://sheets.google.com/' },
+  
+  // Presentation Tools
+  { id: 'gslides', name: 'Google Slides', categoryId: 'presentation', description: 'Create and collaborate on online presentations.', logoUrl: 'https://ui-avatars.com/api/?name=Slides&background=F4B400&color=fff&rounded=true', websiteUrl: 'https://slides.google.com/' },
+  
+  // Knowledge Bases
+  { id: 'confluence', name: 'Confluence', categoryId: 'knowledge', description: 'Your remote-friendly team workspace.', logoUrl: 'https://ui-avatars.com/api/?name=Confluence&background=172B4D&color=fff&rounded=true', websiteUrl: 'https://www.atlassian.com/software/confluence' },
+  
+  // Digital Mind Mapping
+  { id: 'mindmeister', name: 'MindMeister', categoryId: 'mindmapping', description: 'Collaborative mind mapping online.', logoUrl: 'https://ui-avatars.com/api/?name=MindMeister&background=00AEEF&color=fff&rounded=true', websiteUrl: 'https://www.mindmeister.com/' },
+  
+  // Calendar Apps
+  { id: 'gcalendar', name: 'Google Calendar', categoryId: 'calendar', description: 'Access your calendar anywhere.', logoUrl: 'https://ui-avatars.com/api/?name=Calendar&background=4285F4&color=fff&rounded=true', websiteUrl: 'https://calendar.google.com/' },
+  
+  // Appointment Scheduling
+  { id: 'calendly', name: 'Calendly', categoryId: 'scheduling', description: 'Easy scheduling ahead.', logoUrl: 'https://ui-avatars.com/api/?name=Calendly&background=006BFF&color=fff&rounded=true', websiteUrl: 'https://calendly.com/' },
+  
+  // Event Planning
+  { id: 'eventbrite', name: 'Eventbrite', categoryId: 'event', description: 'Discover great events or create your own.', logoUrl: 'https://ui-avatars.com/api/?name=Eventbrite&background=F05537&color=fff&rounded=true', websiteUrl: 'https://www.eventbrite.com/' },
+  
+  // Cloud Storage
+  { id: 'gdrive', name: 'Google Drive', categoryId: 'cloud', description: 'Safe and secure cloud storage.', logoUrl: 'https://ui-avatars.com/api/?name=Drive&background=4285F4&color=fff&rounded=true', websiteUrl: 'https://drive.google.com/' },
+  
+  // File Synchronization
+  { id: 'dropbox', name: 'Dropbox', categoryId: 'sync', description: 'Secure file sharing, storage, and collaboration.', logoUrl: 'https://ui-avatars.com/api/?name=Dropbox&background=0061FF&color=fff&rounded=true', websiteUrl: 'https://www.dropbox.com/' },
+  
+  // Data Backup and Recovery
+  { id: 'backblaze', name: 'Backblaze', categoryId: 'backup', description: 'Incredibly easy cloud backup.', logoUrl: 'https://ui-avatars.com/api/?name=Backblaze&background=E1261C&color=fff&rounded=true', websiteUrl: 'https://www.backblaze.com/' },
+  
+  // Distraction Blockers
+  { id: 'freedom', name: 'Freedom', categoryId: 'distraction', description: 'Block distractions and be more productive.', logoUrl: 'https://ui-avatars.com/api/?name=Freedom&background=3DA853&color=fff&rounded=true', websiteUrl: 'https://freedom.to/' },
+  
+  // Meditation and Mindfulness
+  { id: 'headspace', name: 'Headspace', categoryId: 'meditation', description: 'Meditation and sleep made simple.', logoUrl: 'https://ui-avatars.com/api/?name=Headspace&background=F39121&color=fff&rounded=true', websiteUrl: 'https://www.headspace.com/' },
+  
+  // Health and Fitness Tracking
+  { id: 'myfitnesspal', name: 'MyFitnessPal', categoryId: 'health', description: 'Fitness starts with what you eat.', logoUrl: 'https://ui-avatars.com/api/?name=MFP&background=0066EE&color=fff&rounded=true', websiteUrl: 'https://www.myfitnesspal.com/' },
+  
+  // Budgeting and Expense Tracking
+  { id: 'ynab', name: 'YNAB', categoryId: 'budget', description: 'You Need A Budget to gain control of your money.', logoUrl: 'https://ui-avatars.com/api/?name=YNAB&background=428A97&color=fff&rounded=true', websiteUrl: 'https://www.ynab.com/' },
+  
+  // Investment Monitoring
+  { id: 'empower', name: 'Empower', categoryId: 'investing', description: 'Financial tools to manage your wealth.', logoUrl: 'https://ui-avatars.com/api/?name=Empower&background=181A32&color=fff&rounded=true', websiteUrl: 'https://www.empower.com/' },
+  
+  // Invoicing and Time Billing
+  { id: 'freshbooks', name: 'FreshBooks', categoryId: 'invoicing', description: 'Invoice and accounting software for small businesses.', logoUrl: 'https://ui-avatars.com/api/?name=FreshBooks&background=0055D4&color=fff&rounded=true', websiteUrl: 'https://www.freshbooks.com/' },
+  
+  // Online Courses and Tutorials
+  { id: 'coursera', name: 'Coursera', categoryId: 'courses', description: 'Build skills with courses from top universities.', logoUrl: 'https://ui-avatars.com/api/?name=Coursera&background=0056D2&color=fff&rounded=true', websiteUrl: 'https://www.coursera.org/' },
+  
+  // Language Learning
+  { id: 'duolingo', name: 'Duolingo', categoryId: 'language', description: 'The world\'s best way to learn a language.', logoUrl: 'https://ui-avatars.com/api/?name=Duolingo&background=58CC02&color=fff&rounded=true', websiteUrl: 'https://www.duolingo.com/' },
+  
+  // English Learning
+  { id: 'grammarly', name: 'Grammarly', categoryId: 'english', description: 'Great writing, simplified.', logoUrl: 'https://ui-avatars.com/api/?name=Grammarly&background=15C39A&color=fff&rounded=true', websiteUrl: 'https://www.grammarly.com/' },
+  
+  // Skill Development Tools
+  { id: 'udemy', name: 'Udemy', categoryId: 'skills', description: 'Improving lives through learning.', logoUrl: 'https://ui-avatars.com/api/?name=Udemy&background=A435F0&color=fff&rounded=true', websiteUrl: 'https://www.udemy.com/' },
+  
+  // Workflow Automation
+  { id: 'zapier', name: 'Zapier', categoryId: 'workflow', description: 'Automate your work today.', logoUrl: 'https://ui-avatars.com/api/?name=Zapier&background=FF4A00&color=fff&rounded=true', websiteUrl: 'https://zapier.com/' },
+  
+  // App Integration
+  { id: 'make', name: 'Make', categoryId: 'integration', description: 'Design, build, and automate anything.', logoUrl: 'https://ui-avatars.com/api/?name=Make&background=000000&color=fff&rounded=true', websiteUrl: 'https://www.make.com/' },
+  
+  // Custom Scripting
+  { id: 'python', name: 'Python', categoryId: 'scripting', description: 'A programming language that lets you work quickly.', logoUrl: 'https://ui-avatars.com/api/?name=Python&background=3776AB&color=fff&rounded=true', websiteUrl: 'https://www.python.org/' },
+  
+  // Password Managers
+  { id: '1password', name: '1Password', categoryId: 'passwords', description: 'Password manager for families and businesses.', logoUrl: 'https://ui-avatars.com/api/?name=1Password&background=2C8CFA&color=fff&rounded=true', websiteUrl: 'https://1password.com/' },
+  
+  // VPN Services
+  { id: 'nordvpn', name: 'NordVPN', categoryId: 'vpn', description: 'Advanced security. Complete privacy.', logoUrl: 'https://ui-avatars.com/api/?name=NordVPN&background=0F2942&color=fff&rounded=true', websiteUrl: 'https://nordvpn.com/' },
+  
+  // Encryption Tools
+  { id: 'veracrypt', name: 'VeraCrypt', categoryId: 'encryption', description: 'Free open-source disk encryption software.', logoUrl: 'https://ui-avatars.com/api/?name=VeraCrypt&background=1D1D1D&color=fff&rounded=true', websiteUrl: 'https://www.veracrypt.fr/' },
+  
+  // AI Tools
+  { id: 'chatgpt', name: 'ChatGPT', categoryId: 'ai', description: 'Get answers, find inspiration, be more productive.', logoUrl: 'https://ui-avatars.com/api/?name=ChatGPT&background=10A37F&color=fff&rounded=true', websiteUrl: 'https://chat.openai.com/' },
+  
+  // Reminder Tools
+  { id: 'reminders', name: 'Apple Reminders', categoryId: 'reminders', description: 'Keep track of the things you need to do.', logoUrl: 'https://ui-avatars.com/api/?name=Reminders&background=FFFFFF&color=000&rounded=true', websiteUrl: 'https://www.icloud.com/reminders' },
+  
+  // Community Platforms
+  { id: 'reddit', name: 'Reddit', categoryId: 'community', description: 'Dive into anything.', logoUrl: 'https://ui-avatars.com/api/?name=Reddit&background=FF4500&color=fff&rounded=true', websiteUrl: 'https://www.reddit.com/' },
+  
+  // CRM
+  { id: 'salesforce', name: 'Salesforce', categoryId: 'crm', description: 'The world\'s #1 customer relationship management platform.', logoUrl: 'https://ui-avatars.com/api/?name=Salesforce&background=00A1E0&color=fff&rounded=true', websiteUrl: 'https://www.salesforce.com/' },
+  
+  // AI Agents
+  { id: 'autogpt', name: 'AutoGPT', categoryId: 'aiagents', description: 'An experimental open-source attempt to make GPT-4 fully autonomous.', logoUrl: 'https://ui-avatars.com/api/?name=AutoGPT&background=1B1B1B&color=fff&rounded=true', websiteUrl: 'https://github.com/Significant-Gravitas/AutoGPT' }
 ];
